@@ -1,0 +1,18 @@
+<h1 class="border-bottom my-3"><%= link_to @article.title, articles_path %>
+  <%= link_to edit_article_path do %>
+    <i class="fas fa-pencil-alt"></i>
+  <% end %>
+  <%= link_to article_path(@article), method: :delete do %>
+    <i class="fas fa-trash-alt"></i>
+  <% end %>
+</h1>
+<h4>Author: <%= @article.author %></h4>
+<img src="https://picsum.photos/800/600" alt="">
+<p><%= @article.content %></p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere impedit, harum, porro saepe aliquid debitis illo, asperiores maiores beatae nobis recusandae, eaque dolores nam similique velit ad. Eaque, assumenda, eveniet.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus quis magni impedit. Dolor nulla et, neque quaerat, sed eum, dolore ratione nam eos rerum qui! Recusandae tempora voluptas velit. Perferendis.</p><br>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum eaque ipsa quaerat molestiae earum eum, officiis nostrum totam eligendi cupiditate nobis quis ratione eos, consectetur soluta sequi laudantium atque quo!</p><br>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, nemo a expedita et ipsum exercitationem doloribus ad assumenda, sint, voluptatibus, sed. Dolor natus quasi fugit eveniet id, quae, reiciendis cupiditate.</p>
+
+
+

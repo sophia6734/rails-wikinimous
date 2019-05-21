@@ -1,0 +1,9 @@
+<%= form_for(article) do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title, class: 'form-control my-3' %>
+  <%= f.label :author %>
+  <%= f.text_field :author, class: 'form-control my-3' %>
+  <%= f.label :content %>
+  <%= f.text_field :content, size: 50 , maxlength: 255, class: 'form-control my-3', rows: 3 %>
+  <%= f.submit class: 'btn btn-primary my-3' %>
+<% end %>
